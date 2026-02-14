@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OTTDS - 개인정보처리방침 / Privacy Policy</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.7;
+      color: #2c3e50;
+      background: #f8f9fa;
+      padding: 0;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 40px 24px 60px;
+    }
+    .header {
+      background: linear-gradient(135deg, #161b30, #1e2a4a);
+      color: white;
+      padding: 48px 24px 40px;
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .header p {
+      font-size: 15px;
+      opacity: 0.8;
+    }
+    .lang-toggle {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin: 24px 0;
+    }
+    .lang-toggle button {
+      padding: 8px 20px;
+      border: 2px solid #3498db;
+      background: white;
+      color: #3498db;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .lang-toggle button.active {
+      background: #3498db;
+      color: white;
+    }
+    h2 {
+      font-size: 20px;
+      color: #161b30;
+      margin: 32px 0 12px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e9ecef;
+    }
+    h3 {
+      font-size: 16px;
+      color: #34495e;
+      margin: 20px 0 8px;
+    }
+    p, li {
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+    ul {
+      padding-left: 24px;
+      margin-bottom: 16px;
+    }
+    li { margin-bottom: 6px; }
+    .highlight {
+      background: #e8f4fd;
+      border-left: 4px solid #3498db;
+      padding: 14px 18px;
+      margin: 16px 0;
+      border-radius: 0 6px 6px 0;
+      font-size: 14px;
+    }
+    .update-date {
+      color: #7f8c8d;
+      font-size: 13px;
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #e9ecef;
+    }
+    .lang-section { display: none; }
+    .lang-section.active { display: block; }
+    a { color: #3498db; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+    }
+    th, td {
+      text-align: left;
+      padding: 10px 14px;
+      border: 1px solid #dee2e6;
+      font-size: 14px;
+    }
+    th {
+      background: #f1f3f5;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>OTTDS - OTT Dual Subtitles</h1>
+  <p>개인정보처리방침 / Privacy Policy</p>
+</div>
+
+<div class="container">
+  <div class="lang-toggle">
+    <button class="active" onclick="showLang('ko')">한국어</button>
+    <button onclick="showLang('en')">English</button>
+  </div>
+
+  <!-- ===== Korean Version ===== -->
+  <div id="lang-ko" class="lang-section active">
+
+    <h2>1. 개요</h2>
+    <p>OTTDS(OTT Dual Subtitles)는 OTT 플랫폼(쿠팡플레이, 웨이브, 티빙, 디즈니+, 넷플릭스)에서 원문 자막과 번역 자막을 동시에 표시하는 Chrome 확장프로그램입니다.</p>
+    <div class="highlight">
+      OTTDS는 사용자의 개인정보를 수집, 저장, 전송하지 않습니다.
+    </div>
+
+    <h2>2. 수집하는 데이터</h2>
+    <p>OTTDS는 다음의 데이터만 처리하며, 모든 처리는 사용자의 브라우저 내에서만 이루어집니다:</p>
+    <table>
+      <tr>
+        <th>데이터 유형</th>
+        <th>용도</th>
+        <th>저장 위치</th>
+      </tr>
+      <tr>
+        <td>자막 텍스트</td>
+        <td>번역 API로 전송하여 번역 결과 표시</td>
+        <td>브라우저 메모리 (세션 종료 시 삭제)</td>
+      </tr>
+      <tr>
+        <td>확장프로그램 설정</td>
+        <td>사용자 설정 유지 (언어, 폰트 등)</td>
+        <td>Chrome Storage (로컬)</td>
+      </tr>
+      <tr>
+        <td>번역 캐시</td>
+        <td>동일 자막 재번역 방지</td>
+        <td>브라우저 메모리 (세션 종료 시 삭제)</td>
+      </tr>
+    </table>
+
+    <h2>3. 수집하지 않는 데이터</h2>
+    <p>OTTDS는 다음 데이터를 일체 수집하지 않습니다:</p>
+    <ul>
+      <li>개인 식별 정보 (이름, 이메일, 전화번호 등)</li>
+      <li>로그인 정보 또는 인증 데이터</li>
+      <li>브라우징 기록 또는 방문 URL</li>
+      <li>OTT 계정 정보 또는 시청 기록</li>
+      <li>쿠키 또는 추적 데이터</li>
+      <li>기기 정보 또는 위치 정보</li>
+    </ul>
+
+    <h2>4. 외부 서비스 통신</h2>
+    <p>OTTDS는 자막 번역을 위해 다음 외부 서비스와 통신할 수 있습니다:</p>
+    <ul>
+      <li><strong>Google 번역 API</strong> — 자막 텍스트만 전송되며, 개인정보는 포함되지 않습니다.</li>
+    </ul>
+    <p>전송되는 데이터는 자막 원문 텍스트뿐이며, 사용자를 식별할 수 있는 어떠한 정보도 포함되지 않습니다.</p>
+
+    <h2>5. 권한 사용 목적</h2>
+    <table>
+      <tr>
+        <th>권한</th>
+        <th>사용 목적</th>
+      </tr>
+      <tr>
+        <td>host_permissions (OTT 사이트)</td>
+        <td>자막 데이터를 가로채서 번역하기 위해 필요합니다. 해당 OTT 사이트에서만 동작하며, 다른 사이트에는 접근하지 않습니다.</td>
+      </tr>
+      <tr>
+        <td>storage</td>
+        <td>사용자 설정(언어, 폰트 크기 등)을 로컬에 저장하기 위해 사용합니다.</td>
+      </tr>
+      <tr>
+        <td>activeTab</td>
+        <td>현재 활성 탭에서 자막 오버레이를 표시하기 위해 사용합니다.</td>
+      </tr>
+    </table>
+
+    <h2>6. 데이터 보안</h2>
+    <p>모든 데이터 처리는 사용자의 로컬 브라우저 내에서 이루어지며, 외부 서버에 저장되지 않습니다. 번역 API와의 통신은 HTTPS를 통해 암호화됩니다.</p>
+
+    <h2>7. 아동 보호</h2>
+    <p>OTTDS는 13세 미만의 아동으로부터 개인정보를 수집하지 않습니다. 이 확장프로그램은 개인정보를 수집하지 않으므로 모든 연령의 사용자가 안전하게 사용할 수 있습니다.</p>
+
+    <h2>8. 변경 사항 고지</h2>
+    <p>본 개인정보처리방침이 변경될 경우, 확장프로그램 업데이트를 통해 고지합니다.</p>
+
+    <h2>9. 문의</h2>
+    <p>개인정보처리방침에 관한 문의사항이 있으시면 아래로 연락해 주세요:</p>
+    <p><strong>이메일:</strong> aeokyungtae@gmail.com</p>
+  </div>
+
+  <!-- ===== English Version ===== -->
+  <div id="lang-en" class="lang-section">
+
+    <h2>1. Overview</h2>
+    <p>OTTDS (OTT Dual Subtitles) is a Chrome extension that displays original and translated subtitles simultaneously on OTT platforms (CoupangPlay, Wavve, Tving, Disney+, Netflix).</p>
+    <div class="highlight">
+      OTTDS does not collect, store, or transmit any personal information.
+    </div>
+
+    <h2>2. Data We Process</h2>
+    <p>OTTDS only processes the following data, and all processing occurs within the user's browser:</p>
+    <table>
+      <tr>
+        <th>Data Type</th>
+        <th>Purpose</th>
+        <th>Storage Location</th>
+      </tr>
+      <tr>
+        <td>Subtitle text</td>
+        <td>Sent to translation API to display translated results</td>
+        <td>Browser memory (cleared on session end)</td>
+      </tr>
+      <tr>
+        <td>Extension settings</td>
+        <td>Persist user preferences (language, font, etc.)</td>
+        <td>Chrome Storage (local)</td>
+      </tr>
+      <tr>
+        <td>Translation cache</td>
+        <td>Prevent re-translating identical subtitles</td>
+        <td>Browser memory (cleared on session end)</td>
+      </tr>
+    </table>
+
+    <h2>3. Data We Do Not Collect</h2>
+    <p>OTTDS does not collect any of the following:</p>
+    <ul>
+      <li>Personally identifiable information (name, email, phone, etc.)</li>
+      <li>Login credentials or authentication data</li>
+      <li>Browsing history or visited URLs</li>
+      <li>OTT account information or viewing history</li>
+      <li>Cookies or tracking data</li>
+      <li>Device information or location data</li>
+    </ul>
+
+    <h2>4. External Service Communication</h2>
+    <p>OTTDS may communicate with the following external services for subtitle translation:</p>
+    <ul>
+      <li><strong>Google Translate API</strong> — Only subtitle text is transmitted. No personal information is included.</li>
+    </ul>
+    <p>The only data transmitted is the raw subtitle text. No information that could identify the user is ever sent.</p>
+
+    <h2>5. Permission Usage</h2>
+    <table>
+      <tr>
+        <th>Permission</th>
+        <th>Purpose</th>
+      </tr>
+      <tr>
+        <td>host_permissions (OTT sites)</td>
+        <td>Required to intercept subtitle data for translation. Only operates on specified OTT sites; does not access any other websites.</td>
+      </tr>
+      <tr>
+        <td>storage</td>
+        <td>Used to save user settings (language, font size, etc.) locally.</td>
+      </tr>
+      <tr>
+        <td>activeTab</td>
+        <td>Used to display the subtitle overlay on the currently active tab.</td>
+      </tr>
+    </table>
+
+    <h2>6. Data Security</h2>
+    <p>All data processing occurs within the user's local browser and is never stored on external servers. Communication with the translation API is encrypted via HTTPS.</p>
+
+    <h2>7. Children's Privacy</h2>
+    <p>OTTDS does not collect personal information from children under 13. Since this extension does not collect personal information, it is safe for users of all ages.</p>
+
+    <h2>8. Changes to This Policy</h2>
+    <p>If this privacy policy is updated, changes will be communicated through extension updates.</p>
+
+    <h2>9. Contact</h2>
+    <p>If you have questions about this privacy policy, please contact us at:</p>
+    <p><strong>Email:</strong> [Enter your developer email address]</p>
+  </div>
+
+  <p class="update-date">최종 수정일 / Last updated: 2026-02-15</p>
+</div>
+
+<script>
+function showLang(lang) {
+  document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('active'));
+  document.getElementById('lang-' + lang).classList.add('active');
+  document.querySelectorAll('.lang-toggle button').forEach(btn => btn.classList.remove('active'));
+  event.target.classList.add('active');
+}
+</script>
+
+</body>
+</html>
